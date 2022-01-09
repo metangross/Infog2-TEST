@@ -20,9 +20,9 @@ from survivor import views
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register(r'Inventory',views.InventoryViewSet,basename="Inventory")
-router.register(r'Survivor',views.SurvivorViewSet,basename="Survivor")
-router.register(r'Report',views.ReportViewSet, basename="Report")
+router.register(r'Inventory',views.InventoryViewSet,basename="inventory")
+router.register(r'Survivor',views.SurvivorViewSet,basename="survivor")
+router.register(r'Report',views.ReportViewSet, basename="report")
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
