@@ -21,7 +21,11 @@ Before executing the API, you'll need to set the .env file. Firstly, rename the 
 5. DB_PASS: The password of your postgres database.
 6. DB_HOST: The host of your postgres database.
   - This should have the same name as the postgres service in the docker-compose file, if you don't want to change the service's name just give this variable the value of "db".
-8. DB_PORT: The port of your postgres database.
+7. DB_PORT: The port of your postgres database.
+8. PTS_WATER= Ammount of points the water is worth
+9. PTS_FOOD= Ammount of points the food is worth
+10. PTS_MEDS= Ammount of points the meds is worth
+11. PTS_AMMO=  Ammount of points the ammo is worth
   
 ## Execute the API
  
